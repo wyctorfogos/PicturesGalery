@@ -1,24 +1,36 @@
+.title{
+    justify-content: center;
+    text-align: center;
+}
+
 .card {
-    transition: 0.3s;
-    width: 15%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
 }
 
-#picture{
-    height: auto;
+.card:hover{
+    border: 3px solid #e9d1d1;
+}
+
+#picture {
     width: 100px;
-    image-orientation: from-image;
-    padding: 50px;
-    justify-content: center;
-    display: flexbox;
-    text-align: center;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
 }
 
-.personName{
-    text-align: center;
-    justify-content: center;
+#personName {
+    font-size: 1.1em;
+    color: #333;
 }
 
-.personFunction{
-    text-align: center;
-    justify-content: center;
+#personFunction {
+    font-size: 0.9em;
+    color: #666;
 }
